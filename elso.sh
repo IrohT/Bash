@@ -4,6 +4,11 @@
 #echo "Hello World" 
 #ls | tr a-z A-z
 
+#touch file.txt
+
+# cat > file.txt
+
+head -5 file.txt | tail -n -3 
 
 var1=$1
 let var2=$2
